@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .button-story {
+        @apply absolute bg-blue-500 hover:bg-blue-700 w-8 h-8 rounded-full bottom-0 right-1 text-white font-bold text-2xl flex justify-center items-center font-mono border-white border-4;
+    }
+}
